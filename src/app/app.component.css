@@ -1,0 +1,185 @@
+/*Tab style*/
+@font-face {
+  font-family: 'Avenir';
+  src: url('AvenirNextLTPro-Heavy.otf') format('otf')       
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+ul > li {
+    /*padding-right: 5px;
+    padding-left: 5px;*/
+}
+ul > li > a {
+    background-color: #fff;
+    color: #00a3e0;
+    font-size: 14px;
+    border: none;
+    border-radius: 0px;
+    font-weight: bold;
+}
+
+ul  li  a.active  {
+    background-color: #fff;;
+    text-decoration: none;
+    color: #005ebb;
+    border-bottom: solid 2px #005ebb;
+}
+
+
+ul > li > a:hover {
+    background-color:  #fff;
+    color: #005ebb;
+border-bottom: solid 2px #005ebb;
+}
+
+.pg-l-0 {
+    padding-left: 0px;
+}
+
+.pg-r-0 {
+    padding-right: 0px;
+}
+
+/*Nav style*/
+.navbar{
+  margin-bottom: 10px;
+}
+.navbar-default {
+
+    border-radius: 0px;
+    min-height: 100px;
+    
+}
+.navbar-default{
+  background-color:#fff !important;
+  border-bottom: solid 1px #086EAE;
+  border-color: transparent;
+}
+.navbar-brand {
+    height: auto;
+    padding: 0 15px 10px 15px;
+    width:auto;
+}
+.logotext{
+  
+    /* font-family: Avenir; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-top: 34px;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1.1;
+
+}
+.navbar-brand-name {
+  display: inline-block;
+  float: left;
+  width: 65%;
+}
+
+.navbar-brand-name > img {
+  display: inline-block;
+  float: left;
+  padding: 0 15px 0 0;
+}
+
+
+.icttext{color:#086EAE;}
+.ictyr{color: #00a3e0;}
+.hashtext{
+  color:#00a3e0;
+  font-style: italic;
+}
+
+/*Utility */
+
+
+.color-white {
+ color: white;
+}
+
+.theme-m-bg {
+     /*background-color: #FFF;*/
+}
+
+
+ /*tabs  */
+
+ .nav > li > a {
+  position: relative;
+  display: block;
+  /*padding: 10px 15px;*/
+  height: 36px;
+  padding: 10px;
+  margin: 0 6px 0 6px;
+}
+
+.dropdown-label {
+    font-size: 18px;
+    color: #00a3e0;
+}
+
+.dropdown-language .caret {
+   
+    border-top: 10px dashed;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    margin-top: 5px;
+}
+
+.dropdown-language button{
+    background-color: #fff;
+    color: #00a3e0;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+}
+
+.open > .dropdown-toggle.btn-default:focus{
+    background-color: #00a3e0;
+    color: #fff;
+    border: 1px solid #fcf8fe;
+} 
+
+.dropdown-language ul {
+    width:100%;
+    border-radius: 0px; 
+}
+.dropdown-language > ul > li a {
+    color: #00a3e0;
+    font-size: 18px;
+}
+.dropdown-language ul > li a:hover {
+     background-color: #00a3e0;
+     color: #fff;
+     cursor: pointer;
+}
+.navbar-search{
+
+}
+.navbar-search li {
+    display: inline-block;
+    height: auto;
+    border: 0;
+    margin-left: 8px;
+}
+.navbar-search li a {
+    border-color: transparent;
+    border: 0 !important;
+    padding: 0 !important;
+}
+.navbar-search li a:hover{
+  background-color: transparent;
+  color: #00a3e0;
+}
+
+.sb-container .sb-buttons {
+    margin: 0px 0px 3px -10px !important;
+}
+
+.navbar-brand {
+    margin-left: -50px !important;
+}

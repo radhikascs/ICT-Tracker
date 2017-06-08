@@ -1,0 +1,173 @@
+
+
+.compare-selector {
+   background-color: #00a3e0;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.compare-selector .form-control:focus {
+        border-color: #fcf8fe;
+}
+
+.selected-country {
+   background-color: #b2e3f5;
+}
+
+.input-search {
+    width: 100%;
+    
+}
+.input-search-wrap {
+    padding: 0px 0px 5px 0px;
+}
+/*Utility*/
+
+.cursor-pointer {
+ cursor: pointer;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+
+.theme-color {
+     color: #00a3e0;
+}
+
+.theme-text-color{
+     color: #000000 ;
+}
+
+.color-000000 {
+    color: #000000 ;
+}
+
+.theme-sm-bg{
+ background-color: #F2F3F5;
+} 
+
+.theme-badgeb {
+ background-color   : #00a3e0;
+}
+
+.theme-badgel {
+    background-color: #00a3e0;
+}
+
+.theme-badge-white {
+    background-color: #ffffff;
+}
+
+.solidwhiteline {
+    border-top: 5px solid #ffffff;
+}
+
+.color-white {
+    color: white
+}
+
+.margin-t-20 {
+    margin-top: 20px;
+}
+
+.margin-b-30 {
+    margin-bottom: 30px;
+}
+
+.margin-t-0 {
+    margin-top: 0px
+}
+
+.padding-15 {
+    padding: 15px;
+}
+
+.padding-b-5 {
+    padding-bottom: 5px;
+}
+.hr-seperator-b341d8{
+    border: 2px solid #b341d8;
+}
+
+.hr-seperator-b33226{
+    border: 2px solid #00a3e0;
+}
+
+.hr-seperator-ffffff{
+    border: 2px solid #ffffff;
+}
+
+.border-b {
+    border-bottom: 1px solid #00a3e0;
+}
+
+/*dropbox style*/
+.dropdown-label {
+    font-size: 20px;
+    color: #00a3e0;
+}
+
+.dropdown-custom .caret {
+   
+    border-top: 10px dashed;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    margin-top: 5px;
+}
+
+.dropdown-custom button{
+    background: #b2e3f5;
+    color: #333;
+    border: 1px solid #fcf8fe;
+    border-radius: 0px;
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+}
+
+.open > .dropdown-toggle.btn-default:focus{
+    background: #b2e3f5;
+      color: #333;
+    border: 1px solid #fcf8fe;
+} 
+
+.dropdown-custom ul {
+    width:100%;
+    border-radius: 0px;
+    max-height: 478px;
+    overflow-y: scroll;
+}
+.dropdown-custom > ul > li a {
+     color: #00a3e0;
+    font-size: 18px;
+}
+.dropdown-custom ul > li a:hover {
+     background-color: #00a3e0;;
+     color: #fff;
+     cursor: pointer;
+}
+
+
+/*auto complete*/
+.search-result{
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  width:195px;
+  height: 20px;
+  padding: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+#search-box{
+  width: 200px;
+  height: 20px;
+}
+#links-container a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #00a3e0;
+}

@@ -1,0 +1,191 @@
+<div class="container">
+
+  <div class="row margin-t-20">
+    <div class="col-lg-9 col-md-9 col-xs-12 col-sm-12">
+
+
+      <h4 class="dropdown-label">Select an option</h4>
+      <div class="dropdown dropdown-custom">
+        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">ICT Regulatory Tracker {{latestYear}}: {{currentSelectedItem}}
+                        <span class="caret pull-right"></span>
+                    </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+          <li role="presentation" [class.selected-region]="item.name === currentSelectedItem" *ngFor="let item of dropDownItemsContainer">
+            <a role="menuitem" tabindex="-1" (click)="onSelect(item)">ICT Regulatory Tracker {{latestYear}}: {{item.name}}</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="" id="print-section">
+        <table class="table table-hover table-responsive margin-t-20">
+          <thead>
+            <tr>
+              <th>Cluster</th>
+              <th>C1: Regulatory Authority</th>
+              <th>C2. Regulatory Mandate</th>
+              <th>C3. Regulatory Regime</th>
+              <th>C4. Competition Framework</th>
+              <th>Overall Score</th>
+            </tr>
+            <tr>
+              <th>Max Score:</th>
+              <th>
+                <div class="inner-th">20</div>
+              </th>
+              <th>
+                <div class="inner-th">22</div>
+              </th>
+              <th>
+                <div class="inner-th">30</div>
+              </th>
+              <th>
+                <div class="inner-th">28</div>
+              </th>
+              <th>
+                <div class="inner-th">100</div>
+              </th>
+            </tr>
+            <tr>
+
+              <th>Country</th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr *ngFor="let country of trackerByRegionData">
+
+
+              <td>
+                <div class="inner-td">
+                  {{country.countryName}}
+                </div>
+              </td>
+              <td>
+                <div class="inner-td">
+
+                  {{country.cluster1RA}}
+
+                </div>
+              </td>
+              <td>
+                <div class="inner-td">
+
+                  {{country.cluster2RM}}
+
+                </div>
+              </td>
+              <td>
+                <div class="inner-td">
+
+                  {{country.cluster3RR}}
+                </div>
+
+              </td>
+              <td>
+                <div class="inner-td">
+
+                  {{country.cluster4CF}}
+
+                </div>
+              </td>
+              <td>
+                <div class="inner-td">
+
+                  {{country.overall | number : '1.2-2' }}
+
+                </div>
+              </td>
+              <!--<td><span class="donut" data-peity='{ "fill": ["#333F4F", "#eeeeee"],    "innerRadius": 16, "radius": 20 }' appPeityChart>{{country.overall}}/100</span></td>-->
+
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-xs-3 col-sm-3">
+
+      <share-buttons class="custom-buttons color-b33226" [shareTitle]="shareTitle" [defaultStyle]="false" [facebook]="fbInner"
+        [twitter]="twitterInner" [linkedIn]="inInner" [reddit]="false" [stumbleUpOn]="false" [tumblr]="false" [google]="false"
+        [pinterest]="false"></share-buttons>
+      <!--<h4 class="theme-text-color">Share:</h4>-->
+      <!--<div class="row">
+            <div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+              <a>
+                <span class="fa-stack fa-lg">
+											<i class="fa fa-circle fa-stack-2x theme-color"></i>
+											<i class="fa fa-facebook fa-stack-1x color-white"></i>
+							</span>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+              <a>
+                <span class="fa-stack fa-lg">
+											<i class="fa fa-circle fa-stack-2x theme-color"></i>
+											<i class="fa fa-twitter fa-stack-1x color-white"></i>
+							</span>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+              <a>
+                <span class="fa-stack fa-lg">
+											<i class="fa fa-circle fa-stack-2x theme-color"></i>
+											<i class="fa fa-linkedin fa-stack-1x color-white"></i>
+							</span>
+              </a>
+            </div>
+          </div>-->
+
+      <div class="row border-b">
+        <div class="col-lg-6 col-md-6 col-xs-4 col-sm-6">
+          <h4 class="color-b33226">Print:</h4>
+          <a (click)="print()" class="cursor-pointer" title="Print Page">
+            <span class="fa-stack fa-lg">
+											<i class="fa fa-circle fa-stack-2x color-b33226"></i>
+											<i class="fa fa-print fa-stack-1x color-white"></i>
+							</span>
+          </a>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
+          <h4 class="color-b33226">Save:</h4>
+          <a (click)="download()" class="cursor-pointer" title="Save">
+            <span class="fa-stack fa-lg">
+											<i class="fa fa-circle fa-stack-2x color-b33226"></i>
+											<i class="fa fa-save fa-stack-1x color-white"></i>
+							</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="row" style=" padding-top: 15px;">
+        <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+          <div class="thumbnail">
+            <a href="https://www.itu.int/pub/D-PREF-BB.REG_OUT01-2017" target="_blank">
+              <img class="img img-responsive" src="./assets/images/ict-cover.jpg" />
+            </a>
+          </div>
+          <div class="caption text-center">
+            <p><strong><a href="https://www.itu.int/pub/D-PREF-BB.REG_OUT01-2017" target="_blank">New ITU report: check out now!</a></strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="row" style=" padding-top: 15px;">
+        <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+          <a href="http://newslog.itu.int/" target="_blank">
+            <img src="./assets/images/itu-newlog.png" class="img img-responsive">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<router-outlet></router-outlet>

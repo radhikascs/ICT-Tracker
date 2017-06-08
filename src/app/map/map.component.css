@@ -1,0 +1,169 @@
+
+
+.container {
+    margin-top: 20px;
+}
+
+#map-container{
+    height: 500px;
+    border-top: 4px solid  #00a3e0;
+    border-bottom: 4px solid  #00a3e0;
+}
+
+.mn-t-20 {
+    margin-top: 20px;
+}
+
+.disclaimer-content{
+    font-size: 9px;
+    text-align: justify;
+}
+
+/*utility*/
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.border-r-1-e2e2e2 {
+    border-right: 1px solid #e2e2e2;
+}
+
+.mn-t-5{
+margin-top:5px; 
+}
+
+.margin-b-60 {
+    margin-bottom: 60px;
+}
+
+.fntsize-20 {
+    font-size: 20px;
+}
+.theme-color {
+     color: #00a3e0;
+}
+
+.color-white {
+    color: white;
+}
+
+.theme-text-color{
+    color: #00a3e0;
+} 
+
+/*dropbox style*/
+
+.font-size-18{
+    font-size: 18px;
+}
+.dropdown-label {
+    font-size: 20px;
+    color: #00a3e0;
+}
+
+.dropdown-custom .caret {
+   
+    border-top: 10px dashed;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    margin-top: 5px;
+}
+
+.dropdown-custom button{
+    background-color: #00a3e0;
+    color: #fff;
+    border: 1px solid #fcf8fe;
+    border-radius: 0px;
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+}
+
+.open > .dropdown-toggle.btn-default:focus{
+    background-color: #00a3e0;
+    color: #fff;
+    border: 1px solid #fcf8fe;
+} 
+
+.dropdown-custom ul {
+    width:100%;
+    border-radius: 0px; 
+}
+.dropdown-custom > ul > li a {
+    color: #00a3e0;
+    font-size: 18px;
+}
+.dropdown-custom ul > li a:hover {
+     background-color: #00a3e0;
+     color: #fff;
+     cursor: pointer;
+}
+
+
+/*year slider */
+
+.map-controls .map-control {
+    margin-top: 100px;
+}
+
+.map-controls.row>[class*=col-] {
+    /*:first-child*/
+    margin: 10px;
+    bottom: 12px;
+    position: absolute;
+    z-index: 10;
+    margin-left: 25px;
+}
+
+
+.map-controls button {
+    border-radius: 0px;
+}
+
+.cursor-text {
+    cursor: text;
+}
+
+nput[type=range] {
+    -webkit-appearance: none;
+    background-color: silver;
+    width: 0px;
+    height:0px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+     -webkit-appearance: none;
+    background-color: #666;
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+
+input[type=range]::-moz-range-thumb {
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+
+
+
+/*Legend*/
+
+.legend-labels li span i{
+    display: block;
+    width: 7%;
+    height: 15px;
+    float: left;
+    border: 1px solid black;
+    color: #000;
+    margin-right: 5px;
+}
+
+.legend-labels li {
+    cursor: pointer;
+}
+
+.active-legend-scale {
+    background-color: black;
+}

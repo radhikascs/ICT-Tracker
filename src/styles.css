@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/*override map lib css*/
+.leaflet-top, .leaflet-bottom {
+       z-index: 900 !important;
+}
+
+.leaflet-bar{
+    border-radius: 0px;
+}
+
+
+/*sharing buttons*/
+.custom-buttons .sb-button button img:hover {
+    transform: scale(0.85);
+    box-shadow: rgba(0, 0, 0, 0.8) 2px 2px 3px inset;
+}
+.custom-buttons .sb-button button img {
+    border-radius: 50%;
+    transition: all 0.35s ease;
+}
+
+.custom-buttons .sb-button button img {
+  width: 35px;
+}
+
+.sb-container .sb-buttons {
+    margin: 0px 0px 3px -30px !important;
+}
+
+.sb-container .btn, .sb-container button {
+    padding: 0px !important;
+}
+.sb-container button {
+    margin: 0px !important;
+}
+
+.thumbnail {
+    margin-bottom: 1px !important; 
+}
+
+/*ICT Theme color patterns*/
+
+
+

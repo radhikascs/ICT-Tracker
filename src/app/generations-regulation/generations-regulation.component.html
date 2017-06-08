@@ -1,0 +1,233 @@
+<div class="container margin-t-30" id="print-section">
+
+  <div class="row">
+    <div class="col-lg-9 col-md-9 col-xs-12 col-sm-12">
+      <!--first chart-->
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+
+          <div class="panel panel-default bradius-0">
+            <div class="panel-heading panel-header-bg color-white bradius-0">
+              <h3 class="panel-title font-size-14">Evolution of the generations of ICT regulation, 2007 – 2015 
+                 <div class="btn-group pull-right dropdown-custom" style="margin-top:-8px;">
+                    <span class="btn font-size-13">{{currentSelectedItemForAreaChart.name}}</span>
+                    <button class="btn dropdown-toggle bradius-0" data-toggle="dropdown">
+                      <span class="caret hidden-print"></span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-right bradius-0">
+                       <li role="presentation"  [class.selected-region]="item.name === currentSelectedItemForAreaChart.name"  *ngFor="let item of dropDownItemsContainer" >
+                         <a role="menuitem" tabindex="-1"  (click)="onChangeAreaChart(item)" >{{item.name}}</a>
+                      </li>
+                    </ul>
+                  </div>
+              </h3>
+            </div>
+            <div class="panel-body panel-bg">
+               <div id="areachart-container">
+
+               </div>
+               <div class="row">
+                 <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
+                      <p></p>
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                         <p>
+                          <strong>ICT Regulatory Tracker</strong><br><p></p>
+                          <strong>Score Breakdown</strong>
+                         </p>
+                              <ul class="list-unstyled">
+                                <li>G1 : &ge; 0  &nbsp;&nbsp;&#60; 40 points</li>
+                                <li>G2 : &ge; 40 &#60; 70 points</li>
+                                <li>G3 : &ge; 70 &#60; 85 points</li>
+                                <li>G4 : &ge; 85 &le; 100 points</li>
+                              </ul>
+                      </div>
+                    </div>
+                 </div>
+                 <div class="col-lg-4 col-md-4 col-xs-4 col-sm-4 col-sm-offset-2 col-md-offset-2 col-lg-offset-2 col-xs-offset-2">
+                   <p></p>
+                   <div>
+                      <p><em>Notes:</em></p>
+                      <ul class="list-unstyled">
+                        <li>2007 - 2013: data for 186 countries</li>
+                        <li>2014 : 187 countries</li>
+                        <li>2015 : 189 countries</li>
+                      </ul>
+                   </div>
+                 </div>
+               </div>
+               <hr style="border-top: 1px solid #c9cace;">
+               <div class="row hidden-print">
+                       <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                        <p><strong>Definitions</strong>
+                        <dl class="dl-horizontal" style="margin-left: -136px;">
+                          <dt>G4:</dt>
+                          <dd>Integrated regulation, led by economic and social policy goals</dd>
+                          <dt>G3:</dt>
+                          <dd>Enabling investment, innovation and access; dual focus on stimulating competition in service and content delivery, and consumer protection</dd>
+                          <dt>G2:</dt>
+                          <dd>Opening markets, partial liberalization and privatization across the layers</dd>
+                          <dt>G1:</dt>
+                          <dd>Regulated public monopolies, command & control approach</dd>
+                        </dl>
+                      </div>
+                </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!--second chart-->
+
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+
+          <div class="panel panel-default bradius-0">
+            <div class="panel-heading panel-header-bg color-white bradius-0">
+              <h3 class="panel-title font-size-14">Evolution of the generations of ICT regulation, 2007 – 2015
+                <div class="btn-group pull-right dropdown-custom" style="margin-top:-8px;">
+                    <span class="btn font-size-13">{{currentSelectedItemForDonutChart.name}}</span>
+                    <button class="btn dropdown-toggle bradius-0" data-toggle="dropdown">
+                      <span class="caret hidden-print"></span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-right bradius-0">
+                       <li role="presentation"  [class.selected-region]="item.name === currentSelectedItemForDonutChart.name"   *ngFor="let item of dropDownItemsContainer" >
+                         <a role="menuitem" tabindex="-1"  (click)="onChangeDonutChart(item)" >{{item.name}}</a>
+                      </li>
+                    </ul>
+                  </div>
+              </h3>
+            </div>
+            <div class="panel-body panel-bg">
+              <div class="row">
+                 <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
+                    <div id="donutchart1-container"></div>
+                 </div>
+                 <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
+                     <div id="donutchart2-container"></div>
+                 </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!--third chart-->
+
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+
+          <div class="panel panel-default bradius-0">
+            <div class="panel-heading panel-header-bg color-white bradius-0">
+              <h3 class="panel-title font-size-14">Evolution dynamics of the ICT Regulatory Tracker, 2007 – 2015
+                <div class="btn-group pull-right dropdown-custom" style="margin-top:-8px;">
+                    <span class="btn font-size-13">{{currentSelectedItemForLineChart.name}}</span>
+                    <button class="btn dropdown-toggle bradius-0" data-toggle="dropdown">
+                      <span class="caret hidden-print"></span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-right bradius-0">
+                       <li role="presentation"   [class.selected-region]="item.name === currentSelectedItemForLineChart.name" *ngFor="let item of dropDownItemsContainer" >
+                         <a role="menuitem" tabindex="-1"  (click)="onChangeLineChart(item)" >{{item.name}}</a>
+                      </li>
+                    </ul>
+                  </div>
+              </h3>
+            </div>
+            <div class="panel-body panel-bg">
+             <div id="linechart-container"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!--Links-->
+
+      <div id="links-container" class="margin-t-20 theme-sm-bg padding-15 margin-b-30 hidden-print">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+            <h4>
+              <a [routerLink]="['/about-tracker']" class="color-000000">Methodology</a>
+            </h4>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 text-center">
+            <h4>
+              <a href="http://www.itu.int/en/ITU-D/Regulatory-Market/Pages/default.aspx" target="_blank" class="color-000000">ICT policy &amp; regulatory information </a>
+            </h4>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 text-right">
+            <h4>
+               <a href="http://www.itu.int/en/ITU-D/Statistics/Pages/default.aspx" target="_blank" class="color-000000">ICT Statistics</a>
+            </h4>
+          </div>
+
+        </div>
+      </div>
+      
+
+
+    </div>
+
+
+    <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12 hidden-print">
+      <div class="row border-b">
+        <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+          <share-buttons class="custom-buttons color-b33226" [shareTitle]="shareTitle" [defaultStyle]="false" [facebook]="fbInner"
+            [twitter]="twitterInner" [linkedIn]="inInner" [reddit]="false" [stumbleUpOn]="false" [tumblr]="false" [google]="false"
+            [pinterest]="false"></share-buttons>
+
+        </div>
+      </div>
+      <div class="row border-b">
+        <div class="col-lg-6 col-md-6 col-xs-4 col-sm-6">
+          <h4 class="color-b33226">Print:</h4>
+          <a (click)="print()" class="cursor-pointer" title="Print Page">
+            <span class="fa-stack fa-lg">
+											<i class="fa fa-circle fa-stack-2x color-b33226"></i>
+											<i class="fa fa-print fa-stack-1x color-white"></i>
+							</span>
+          </a>
+        </div>
+
+        <!--<div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
+          <h4 class="color-b33226">Save:</h4>
+          <a (click)="download()" class="cursor-pointer" title="Save">
+            <span class="fa-stack fa-lg">
+											<i class="fa fa-circle fa-stack-2x color-b33226"></i>
+											<i class="fa fa-save fa-stack-1x color-white"></i>
+							</span>
+          </a>
+        </div>-->
+      </div>
+
+      <div class="row" style=" padding-top: 15px;">
+        <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+         <div class="thumbnail">
+          <a href="https://www.itu.int/pub/D-PREF-BB.REG_OUT01-2017" target="_blank">
+             <img class="img img-responsive" src="./assets/images/ict-cover.jpg" />
+          </a>
+        </div>
+          <div class="caption text-center">
+	          <p><strong><a href="https://www.itu.int/pub/D-PREF-BB.REG_OUT01-2017" target="_blank">New ITU report: check out now!</a></strong></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style=" padding-top: 15px;">
+        <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+          <a href="http://newslog.itu.int/" target="_blank">
+            <img src="./assets/images/itu-newlog.png" class="img img-responsive">
+          </a>
+        </div>
+      </div>
+</div>
+
+</div>
+
+</div>
+
+<router-outlet></router-outlet>

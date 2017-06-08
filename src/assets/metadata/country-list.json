@@ -1,0 +1,1750 @@
+{
+	"features" : [{
+			"properties" : {
+				"iso_a2" : "AL",
+				"iso_a3" : "ALB",
+				"country_id" : 3,
+				"name" : "Albania",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "AD",
+				"iso_a3" : "AND",
+				"country_id" : 6,
+				"name" : "Andorra",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "AM",
+				"iso_a3" : "ARM",
+				"country_id" : 12,
+				"name" : "Armenia",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "AT",
+				"iso_a3" : "AUT",
+				"country_id" : 15,
+				"name" : "Austria",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "AZ",
+				"iso_a3" : "AZE",
+				"country_id" : 16,
+				"name" : "Azerbaijan",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "BE",
+				"iso_a3" : "BEL",
+				"country_id" : 22,
+				"name" : "Belgium",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "BG",
+				"iso_a3" : "BGR",
+				"country_id" : 35,
+				"name" : "Bulgaria",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "BA",
+				"iso_a3" : "BIH",
+				"country_id" : 29,
+				"name" : "Bosnia and Herzegovina",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "BY",
+				"iso_a3" : "BLR",
+				"country_id" : 21,
+				"name" : "Belarus",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "CH",
+				"iso_a3" : "CHE",
+				"country_id" : 216,
+				"name" : "Switzerland",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "CY",
+				"iso_a3" : "CYP",
+				"country_id" : 59,
+				"name" : "Cyprus",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "CZ",
+				"iso_a3" : "CZE",
+				"country_id" : 60,
+				"name" : "Czech Republic",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "DE",
+				"iso_a3" : "DEU",
+				"country_id" : 83,
+				"name" : "Germany",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "DK",
+				"iso_a3" : "DNK",
+				"country_id" : 61,
+				"name" : "Denmark",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "ES",
+				"iso_a3" : "ESP",
+				"country_id" : 209,
+				"name" : "Spain",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "EE",
+				"iso_a3" : "EST",
+				"country_id" : 70,
+				"name" : "Estonia",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "FI",
+				"iso_a3" : "FIN",
+				"country_id" : 75,
+				"name" : "Finland",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "FR",
+				"iso_a3" : "FRA",
+				"country_id" : 76,
+				"name" : "France",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "GB",
+				"iso_a3" : "GBR",
+				"country_id" : 235,
+				"name" : "United Kingdom",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "GE",
+				"iso_a3" : "GEO",
+				"country_id" : 82,
+				"name" : "Georgia",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "GR",
+				"iso_a3" : "GRC",
+				"country_id" : 86,
+				"name" : "Greece",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "HR",
+				"iso_a3" : "HRV",
+				"country_id" : 56,
+				"name" : "Croatia",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "HU",
+				"iso_a3" : "HUN",
+				"country_id" : 101,
+				"name" : "Hungary",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "IE",
+				"iso_a3" : "IRL",
+				"country_id" : 107,
+				"name" : "Ireland",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "IS",
+				"iso_a3" : "ISL",
+				"country_id" : 102,
+				"name" : "Iceland",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "IL",
+				"iso_a3" : "ISR",
+				"country_id" : 109,
+				"name" : "Israel",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "IT",
+				"iso_a3" : "ITA",
+				"country_id" : 110,
+				"name" : "Italy",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "KZ",
+				"iso_a3" : "KAZ",
+				"country_id" : 115,
+				"name" : "Kazakhstan",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "KG",
+				"iso_a3" : "KGZ",
+				"country_id" : 121,
+				"name" : "Kyrgyzstan",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "LT",
+				"iso_a3" : "LTU",
+				"country_id" : 129,
+				"name" : "Lithuania",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "LU",
+				"iso_a3" : "LUX",
+				"country_id" : 130,
+				"name" : "Luxembourg",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "LV",
+				"iso_a3" : "LVA",
+				"country_id" : 123,
+				"name" : "Latvia",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "MC",
+				"iso_a3" : "MCO",
+				"country_id" : 147,
+				"name" : "Monaco",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "MD",
+				"iso_a3" : "MDA",
+				"country_id" : 146,
+				"name" : "Moldova",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "MK",
+				"iso_a3" : "MKD",
+				"country_id" : 132,
+				"name" : "TFYR Macedonia",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "MT",
+				"iso_a3" : "MLT",
+				"country_id" : 138,
+				"name" : "Malta",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "ME",
+				"iso_a3" : "MNE",
+				"country_id" : 149,
+				"name" : "Montenegro",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "NL",
+				"iso_a3" : "NLD",
+				"country_id" : 157,
+				"name" : "Netherlands",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "N",
+				"iso_a3" : "NOR",
+				"country_id" : 166,
+				"name" : "Norway",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "PL",
+				"iso_a3" : "POL",
+				"country_id" : 177,
+				"name" : "Poland",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "PT",
+				"iso_a3" : "PRT",
+				"country_id" : 178,
+				"name" : "Portugal",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "R",
+				"iso_a3" : "ROU",
+				"country_id" : 182,
+				"name" : "Romania",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "RU",
+				"iso_a3" : "RUS",
+				"country_id" : 183,
+				"name" : "Russian Federation",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "SM",
+				"iso_a3" : "SMR",
+				"country_id" : 193,
+				"name" : "San Marino",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "RS",
+				"iso_a3" : "SRB",
+				"country_id" : 197,
+				"name" : "Serbia",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "SK",
+				"iso_a3" : "SVK",
+				"country_id" : 202,
+				"name" : "Slovakia",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "SI",
+				"iso_a3" : "SVN",
+				"country_id" : 203,
+				"name" : "Slovenia",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "SE",
+				"iso_a3" : "SWE",
+				"country_id" : 215,
+				"name" : "Sweden",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "TJ",
+				"iso_a3" : "TJK",
+				"country_id" : 219,
+				"name" : "Tajikistan",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "TM",
+				"iso_a3" : "TKM",
+				"country_id" : 229,
+				"name" : "Turkmenistan",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "TR",
+				"iso_a3" : "TUR",
+				"country_id" : 228,
+				"name" : "Turkey",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "UA",
+				"iso_a3" : "UKR",
+				"country_id" : 233,
+				"name" : "Ukraine",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "UZ",
+				"iso_a3" : "UZB",
+				"country_id" : 239,
+				"name" : "Uzbekistan",
+				"world_region_name" : "EUROPE",
+				"world_region_code" : "EUR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "BW",
+				"iso_a3" : "BWA",
+				"country_id" : 30,
+				"name" : "Botswana",
+				"world_region_name" : "EASTERN AND SOUTHERN AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "KM",
+				"iso_a3" : "COM",
+				"country_id" : 50,
+				"name" : "Comoros",
+				"world_region_name" : "EASTERN AND SOUTHERN AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "ER",
+				"iso_a3" : "ERI",
+				"country_id" : 69,
+				"name" : "Eritrea",
+				"world_region_name" : "EASTERN AND SOUTHERN AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "ET",
+				"iso_a3" : "ETH",
+				"country_id" : 71,
+				"name" : "Ethiopia",
+				"world_region_name" : "EASTERN AND SOUTHERN AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "KE",
+				"iso_a3" : "KEN",
+				"country_id" : 116,
+				"name" : "Kenya",
+				"world_region_name" : "EASTERN AND SOUTHERN AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "LS",
+				"iso_a3" : "LSO",
+				"country_id" : 125,
+				"name" : "Lesotho",
+				"world_region_name" : "EASTERN AND SOUTHERN AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "MG",
+				"iso_a3" : "MDG",
+				"country_id" : 133,
+				"name" : "Madagascar",
+				"world_region_name" : "EASTERN AND SOUTHERN AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "ML",
+				"iso_a3" : "MLI",
+				"country_id" : 137,
+				"name" : "Mali",
+				"world_region_name" : "EASTERN AND SOUTHERN AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "MZ",
+				"iso_a3" : "MOZ",
+				"country_id" : 152,
+				"name" : "Mozambique",
+				"world_region_name" : "EASTERN AND SOUTHERN AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "MU",
+				"iso_a3" : "MUS",
+				"country_id" : 142,
+				"name" : "Mauritius",
+				"world_region_name" : "EASTERN AND SOUTHERN AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "NA",
+				"iso_a3" : "NAM",
+				"country_id" : 154,
+				"name" : "Namibia",
+				"world_region_name" : "EASTERN AND SOUTHERN AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "RW",
+				"iso_a3" : "RWA",
+				"country_id" : 184,
+				"name" : "Rwanda",
+				"world_region_name" : "EASTERN AND SOUTHERN AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "SS",
+				"iso_a3" : "SSD",
+				"country_id" : 208,
+				"name" : "South Sudan",
+				"world_region_name" : "EASTERN AND SOUTHERN AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "SZ",
+				"iso_a3" : "SWZ",
+				"country_id" : 214,
+				"name" : "Swaziland",
+				"world_region_name" : "EASTERN AND SOUTHERN AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "SC",
+				"iso_a3" : "SYC",
+				"country_id" : 198,
+				"name" : "Seychelles",
+				"world_region_name" : "EASTERN AND SOUTHERN AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "TZ",
+				"iso_a3" : "TZA",
+				"country_id" : 220,
+				"name" : "Tanzania",
+				"world_region_name" : "EASTERN AND SOUTHERN AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "UG",
+				"iso_a3" : "UGA",
+				"country_id" : 232,
+				"name" : "Uganda",
+				"world_region_name" : "EASTERN AND SOUTHERN AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "ZA",
+				"iso_a3" : "ZAF",
+				"country_id" : 206,
+				"name" : "South Africa",
+				"world_region_name" : "EASTERN AND SOUTHERN AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "ZM",
+				"iso_a3" : "ZMB",
+				"country_id" : 248,
+				"name" : "Zambia",
+				"world_region_name" : "EASTERN AND SOUTHERN AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "ZW",
+				"iso_a3" : "ZWE",
+				"country_id" : 249,
+				"name" : "Zimbabwe",
+				"world_region_name" : "EASTERN AND SOUTHERN AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "BJ",
+				"iso_a3" : "BEN",
+				"country_id" : 24,
+				"name" : "Benin",
+				"world_region_name" : "WEST AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "BF",
+				"iso_a3" : "BFA",
+				"country_id" : 36,
+				"name" : "Burkina Faso",
+				"world_region_name" : "WEST AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "CI",
+				"iso_a3" : "CIV",
+				"country_id" : 55,
+				"name" : "Côte d'Ivoire",
+				"world_region_name" : "WEST AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "CV",
+				"iso_a3" : "CPV",
+				"country_id" : 41,
+				"name" : "Cape Verde",
+				"world_region_name" : "WEST AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "DZ",
+				"iso_a3" : "DZA",
+				"country_id" : 4,
+				"name" : "Algeria",
+				"world_region_name" : "WEST AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "GH",
+				"iso_a3" : "GHA",
+				"country_id" : 84,
+				"name" : "Ghana",
+				"world_region_name" : "WEST AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "GN",
+				"iso_a3" : "GIN",
+				"country_id" : 93,
+				"name" : "Guinea",
+				"world_region_name" : "WEST AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "GM",
+				"iso_a3" : "GMB",
+				"country_id" : 81,
+				"name" : "Gambia",
+				"world_region_name" : "WEST AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "GW",
+				"iso_a3" : "GNB",
+				"country_id" : 94,
+				"name" : "Guinea-Bissau",
+				"world_region_name" : "WEST AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "LR",
+				"iso_a3" : "LBR",
+				"country_id" : 126,
+				"name" : "Liberia",
+				"world_region_name" : "WEST AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "MR",
+				"iso_a3" : "MRT",
+				"country_id" : 141,
+				"name" : "Mauritania",
+				"world_region_name" : "WEST AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "MW",
+				"iso_a3" : "MWI",
+				"country_id" : 134,
+				"name" : "Malawi",
+				"world_region_name" : "WEST AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "NE",
+				"iso_a3" : "NER",
+				"country_id" : 161,
+				"name" : "Niger",
+				"world_region_name" : "WEST AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "NG",
+				"iso_a3" : "NGA",
+				"country_id" : 162,
+				"name" : "Nigeria",
+				"world_region_name" : "WEST AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "SN",
+				"iso_a3" : "SEN",
+				"country_id" : 196,
+				"name" : "Senegal",
+				"world_region_name" : "WEST AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "SL",
+				"iso_a3" : "SLE",
+				"country_id" : 199,
+				"name" : "Sierra Leone",
+				"world_region_name" : "WEST AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "TG",
+				"iso_a3" : "TGO",
+				"country_id" : 223,
+				"name" : "Togo",
+				"world_region_name" : "WEST AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "AO",
+				"iso_a3" : "AGO",
+				"country_id" : 7,
+				"name" : "Angola",
+				"world_region_name" : "CENTRAL AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "BI",
+				"iso_a3" : "BDI",
+				"country_id" : 37,
+				"name" : "Burundi",
+				"world_region_name" : "CENTRAL AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "CF",
+				"iso_a3" : "CAF",
+				"country_id" : 43,
+				"name" : "Central African Rep.",
+				"world_region_name" : "CENTRAL AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "CM",
+				"iso_a3" : "CMR",
+				"country_id" : 39,
+				"name" : "Cameroon",
+				"world_region_name" : "CENTRAL AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "CD",
+				"iso_a3" : "COD",
+				"country_id" : 52,
+				"name" : "Congo (Dem. Rep.)",
+				"world_region_name" : "CENTRAL AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "CG",
+				"iso_a3" : "COG",
+				"country_id" : 51,
+				"name" : "Congo (Rep.)",
+				"world_region_name" : "CENTRAL AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "GA",
+				"iso_a3" : "GAB",
+				"country_id" : 80,
+				"name" : "Gabon",
+				"world_region_name" : "CENTRAL AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "GQ",
+				"iso_a3" : "GNQ",
+				"country_id" : 68,
+				"name" : "Equatorial Guinea",
+				"world_region_name" : "CENTRAL AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "ST",
+				"iso_a3" : "STP",
+				"country_id" : 194,
+				"name" : "S. Tomé & Principe",
+				"world_region_name" : "CENTRAL AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "TD",
+				"iso_a3" : "TCD",
+				"country_id" : 44,
+				"name" : "Chad",
+				"world_region_name" : "CENTRAL AFRICA",
+				"world_region_code" : "AFR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "AU",
+				"iso_a3" : "AUS",
+				"country_id" : 14,
+				"name" : "Australia",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "BN",
+				"iso_a3" : "BRN",
+				"country_id" : 34,
+				"name" : "Brunei Darussalam",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "CN",
+				"iso_a3" : "CHN",
+				"country_id" : 46,
+				"name" : "China",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "CK",
+				"iso_a3" : "COK",
+				"country_id" : 53,
+				"name" : "Cook Islands",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "FJ",
+				"iso_a3" : "FJI",
+				"country_id" : 74,
+				"name" : "Fiji",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "FM",
+				"iso_a3" : "FSM",
+				"country_id" : 145,
+				"name" : "Micronesia",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "JP",
+				"iso_a3" : "JPN",
+				"country_id" : 112,
+				"name" : "Japan",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "KH",
+				"iso_a3" : "KHM",
+				"country_id" : 38,
+				"name" : "Cambodia",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "KI",
+				"iso_a3" : "KIR",
+				"country_id" : 117,
+				"name" : "Kiribati",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "KR",
+				"iso_a3" : "KOR",
+				"country_id" : 119,
+				"name" : "Korea (Rep.)",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "LA",
+				"iso_a3" : "LAO",
+				"country_id" : 122,
+				"name" : "Lao P.D.R.",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "MH",
+				"iso_a3" : "MHL",
+				"country_id" : 139,
+				"name" : "Marshall Islands",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "MN",
+				"iso_a3" : "MNG",
+				"country_id" : 148,
+				"name" : "Mongolia",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "MY",
+				"iso_a3" : "MYS",
+				"country_id" : 135,
+				"name" : "Malaysia",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "NU",
+				"iso_a3" : "NIU",
+				"country_id" : 163,
+				"name" : "Niue",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "NR",
+				"iso_a3" : "NRU",
+				"country_id" : 155,
+				"name" : "Nauru",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "NZ",
+				"iso_a3" : "NZL",
+				"country_id" : 159,
+				"name" : "New Zealand",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "PH",
+				"iso_a3" : "PHL",
+				"country_id" : 175,
+				"name" : "Philippines",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "PW",
+				"iso_a3" : "PLW",
+				"country_id" : 169,
+				"name" : "Palau",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "PG",
+				"iso_a3" : "PNG",
+				"country_id" : 172,
+				"name" : "Papua New Guinea",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "SG",
+				"iso_a3" : "SGP",
+				"country_id" : 200,
+				"name" : "Singapore",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "SB",
+				"iso_a3" : "SLB",
+				"country_id" : 204,
+				"name" : "Solomon Islands",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "TO",
+				"iso_a3" : "TON",
+				"country_id" : 225,
+				"name" : "Tonga",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "TV",
+				"iso_a3" : "TUV",
+				"country_id" : 231,
+				"name" : "Tuvalu",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "VN",
+				"iso_a3" : "VNM",
+				"country_id" : 242,
+				"name" : "Viet Nam",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "VU",
+				"iso_a3" : "VUT",
+				"country_id" : 240,
+				"name" : "Vanuatu",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "WS",
+				"iso_a3" : "WSM",
+				"country_id" : 192,
+				"name" : "Samoa",
+				"world_region_name" : "WESTERN PACIFIC",
+				"world_region_code" : "WPR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "AR",
+				"iso_a3" : "ARG",
+				"country_id" : 11,
+				"name" : "Argentina",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "AG",
+				"iso_a3" : "ATG",
+				"country_id" : 10,
+				"name" : "Antigua & Barbuda",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "BS",
+				"iso_a3" : "BHS",
+				"country_id" : 17,
+				"name" : "Bahamas",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "BZ",
+				"iso_a3" : "BLZ",
+				"country_id" : 23,
+				"name" : "Belize",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "BO",
+				"iso_a3" : "BOL",
+				"country_id" : 27,
+				"name" : "Bolivia",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "BR",
+				"iso_a3" : "BRA",
+				"country_id" : 32,
+				"name" : "Brazil",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "BB",
+				"iso_a3" : "BRB",
+				"country_id" : 20,
+				"name" : "Barbados",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "CA",
+				"iso_a3" : "CAN",
+				"country_id" : 40,
+				"name" : "Canada",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "CL",
+				"iso_a3" : "CHL",
+				"country_id" : 45,
+				"name" : "Chile",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "CO",
+				"iso_a3" : "COL",
+				"country_id" : 49,
+				"name" : "Colombia",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "CR",
+				"iso_a3" : "CRI",
+				"country_id" : 54,
+				"name" : "Costa Rica",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "CU",
+				"iso_a3" : "CUB",
+				"country_id" : 57,
+				"name" : "Cuba",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "DM",
+				"iso_a3" : "DMA",
+				"country_id" : 63,
+				"name" : "Dominica",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "DO",
+				"iso_a3" : "DOM",
+				"country_id" : 64,
+				"name" : "Dominican Rep.",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "EC",
+				"iso_a3" : "ECU",
+				"country_id" : 65,
+				"name" : "Ecuador",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "GD",
+				"iso_a3" : "GRD",
+				"country_id" : 88,
+				"name" : "Grenada",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "GT",
+				"iso_a3" : "GTM",
+				"country_id" : 91,
+				"name" : "Guatemala",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "GU",
+				"iso_a3" : "GUY",
+				"country_id" : 95,
+				"name" : "Guyana",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "HN",
+				"iso_a3" : "HND",
+				"country_id" : 99,
+				"name" : "Honduras",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "HT",
+				"iso_a3" : "HTI",
+				"country_id" : 96,
+				"name" : "Haiti",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "JM",
+				"iso_a3" : "JAM",
+				"country_id" : 111,
+				"name" : "Jamaica",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "KN",
+				"iso_a3" : "KNA",
+				"country_id" : 187,
+				"name" : "St. Kitts and Nevis",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "LC",
+				"iso_a3" : "LCA",
+				"country_id" : 188,
+				"name" : "St. Lucia",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "MX",
+				"iso_a3" : "MEX",
+				"country_id" : 144,
+				"name" : "Mexico",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "NI",
+				"iso_a3" : "NIC",
+				"country_id" : 160,
+				"name" : "Nicaragua",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "PA",
+				"iso_a3" : "PAN",
+				"country_id" : 171,
+				"name" : "Panama",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "PE",
+				"iso_a3" : "PER",
+				"country_id" : 174,
+				"name" : "Peru",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "PY",
+				"iso_a3" : "PRY",
+				"country_id" : 173,
+				"name" : "Paraguay",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "SV",
+				"iso_a3" : "SLV",
+				"country_id" : 67,
+				"name" : "El Salvador",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "SR",
+				"iso_a3" : "SUR",
+				"country_id" : 212,
+				"name" : "Suriname",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "TT",
+				"iso_a3" : "TTO",
+				"country_id" : 226,
+				"name" : "Trinidad & Tobago",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "UY",
+				"iso_a3" : "URY",
+				"country_id" : 238,
+				"name" : "Uruguay",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "US",
+				"iso_a3" : "USA",
+				"country_id" : 236,
+				"name" : "United States",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "VC",
+				"iso_a3" : "VCT",
+				"country_id" : 191,
+				"name" : "St. Vincent and the Grenadines",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "VE",
+				"iso_a3" : "VEN",
+				"country_id" : 241,
+				"name" : "Venezuela",
+				"world_region_name" : "AMERICAS",
+				"world_region_code" : "AMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "BD",
+				"iso_a3" : "BGD",
+				"country_id" : 19,
+				"name" : "Bangladesh",
+				"world_region_name" : "SOUTH-EAST ASIA",
+				"world_region_code" : "SEAR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "BT",
+				"iso_a3" : "BTN",
+				"country_id" : 26,
+				"name" : "Bhutan",
+				"world_region_name" : "SOUTH-EAST ASIA",
+				"world_region_code" : "SEAR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "ID",
+				"iso_a3" : "IDN",
+				"country_id" : 104,
+				"name" : "Indonesia",
+				"world_region_name" : "SOUTH-EAST ASIA",
+				"world_region_code" : "SEAR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "IN",
+				"iso_a3" : "IND",
+				"country_id" : 103,
+				"name" : "India",
+				"world_region_name" : "SOUTH-EAST ASIA",
+				"world_region_code" : "SEAR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "LK",
+				"iso_a3" : "LKA",
+				"country_id" : 210,
+				"name" : "Sri Lanka",
+				"world_region_name" : "SOUTH-EAST ASIA",
+				"world_region_code" : "SEAR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "MV",
+				"iso_a3" : "MDV",
+				"country_id" : 136,
+				"name" : "Maldives",
+				"world_region_name" : "SOUTH-EAST ASIA",
+				"world_region_code" : "SEAR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "MM",
+				"iso_a3" : "MMR",
+				"country_id" : 153,
+				"name" : "Myanmar",
+				"world_region_name" : "SOUTH-EAST ASIA",
+				"world_region_code" : "SEAR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "NP",
+				"iso_a3" : "NPL",
+				"country_id" : 156,
+				"name" : "Nepal",
+				"world_region_name" : "SOUTH-EAST ASIA",
+				"world_region_code" : "SEAR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "KP",
+				"iso_a3" : "PRK",
+				"country_id" : 118,
+				"name" : "Democratic People's Republic of Korea",
+				"world_region_name" : "SOUTH-EAST ASIA",
+				"world_region_code" : "SEAR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "TH",
+				"iso_a3" : "THA",
+				"country_id" : 221,
+				"name" : "Thailand",
+				"world_region_name" : "SOUTH-EAST ASIA",
+				"world_region_code" : "SEAR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "TL",
+				"iso_a3" : "TLS",
+				"country_id" : 222,
+				"name" : "Timor-Leste",
+				"world_region_name" : "SOUTH-EAST ASIA",
+				"world_region_code" : "SEAR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "AF",
+				"iso_a3" : "AFG",
+				"country_id" : 1,
+				"name" : "Afghanistan",
+				"world_region_name" : "EASTERN MEDITERRANEAN",
+				"world_region_code" : "EMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "AE",
+				"iso_a3" : "ARE",
+				"country_id" : 234,
+				"name" : "United Arab Emirates",
+				"world_region_name" : "EASTERN MEDITERRANEAN",
+				"world_region_code" : "EMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "BH",
+				"iso_a3" : "BHR",
+				"country_id" : 18,
+				"name" : "Bahrain",
+				"world_region_name" : "EASTERN MEDITERRANEAN",
+				"world_region_code" : "EMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "DJ",
+				"iso_a3" : "DJI",
+				"country_id" : 62,
+				"name" : "Djibouti",
+				"world_region_name" : "EASTERN MEDITERRANEAN",
+				"world_region_code" : "EMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "EG",
+				"iso_a3" : "EGY",
+				"country_id" : 66,
+				"name" : "Egypt",
+				"world_region_name" : "EASTERN MEDITERRANEAN",
+				"world_region_code" : "EMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "IR",
+				"iso_a3" : "IRN",
+				"country_id" : 105,
+				"name" : "Iran (I.R.)",
+				"world_region_name" : "EASTERN MEDITERRANEAN",
+				"world_region_code" : "EMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "IQ",
+				"iso_a3" : "IRQ",
+				"country_id" : 106,
+				"name" : "Iraq",
+				"world_region_name" : "EASTERN MEDITERRANEAN",
+				"world_region_code" : "EMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "J",
+				"iso_a3" : "JOR",
+				"country_id" : 114,
+				"name" : "Jordan",
+				"world_region_name" : "EASTERN MEDITERRANEAN",
+				"world_region_code" : "EMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "KW",
+				"iso_a3" : "KWT",
+				"country_id" : 120,
+				"name" : "Kuwait",
+				"world_region_name" : "EASTERN MEDITERRANEAN",
+				"world_region_code" : "EMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "LB",
+				"iso_a3" : "LBN",
+				"country_id" : 124,
+				"name" : "Lebanon",
+				"world_region_name" : "EASTERN MEDITERRANEAN",
+				"world_region_code" : "EMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "LY",
+				"iso_a3" : "LBY",
+				"country_id" : 127,
+				"name" : "Libya",
+				"world_region_name" : "EASTERN MEDITERRANEAN",
+				"world_region_code" : "EMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "MA",
+				"iso_a3" : "MAR",
+				"country_id" : 151,
+				"name" : "Morocco",
+				"world_region_name" : "EASTERN MEDITERRANEAN",
+				"world_region_code" : "EMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "OM",
+				"iso_a3" : "OMN",
+				"country_id" : 167,
+				"name" : "Oman",
+				"world_region_name" : "EASTERN MEDITERRANEAN",
+				"world_region_code" : "EMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "PK",
+				"iso_a3" : "PAK",
+				"country_id" : 168,
+				"name" : "Pakistan",
+				"world_region_name" : "EASTERN MEDITERRANEAN",
+				"world_region_code" : "EMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "QA",
+				"iso_a3" : "QAT",
+				"country_id" : 180,
+				"name" : "Qatar",
+				"world_region_name" : "EASTERN MEDITERRANEAN",
+				"world_region_code" : "EMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "SA",
+				"iso_a3" : "SAU",
+				"country_id" : 195,
+				"name" : "Saudi Arabia",
+				"world_region_name" : "EASTERN MEDITERRANEAN",
+				"world_region_code" : "EMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "SD",
+				"iso_a3" : "SDN",
+				"country_id" : 211,
+				"name" : "Sudan",
+				"world_region_name" : "EASTERN MEDITERRANEAN",
+				"world_region_code" : "EMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "SO",
+				"iso_a3" : "SOM",
+				"country_id" : 205,
+				"name" : "Somalia",
+				"world_region_name" : "EASTERN MEDITERRANEAN",
+				"world_region_code" : "EMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "SY",
+				"iso_a3" : "SYR",
+				"country_id" : 217,
+				"name" : "Syria",
+				"world_region_name" : "EASTERN MEDITERRANEAN",
+				"world_region_code" : "EMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "TN",
+				"iso_a3" : "TUN",
+				"country_id" : 227,
+				"name" : "Tunisia",
+				"world_region_name" : "EASTERN MEDITERRANEAN",
+				"world_region_code" : "EMR"
+			}
+		}, {
+			"properties" : {
+				"iso_a2" : "YE",
+				"iso_a3" : "YEM",
+				"country_id" : 247,
+				"name" : "Yemen",
+				"world_region_name" : "EASTERN MEDITERRANEAN",
+				"world_region_code" : "EMR"
+			}
+		}
+	]
+}

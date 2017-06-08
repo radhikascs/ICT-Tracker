@@ -1,0 +1,58 @@
+<!-- Header Start -->
+<div class="container">
+    <div class="col-md-6 col-md-offset-6 col-sm-12 col-xs-12">
+        <ul class="nav navbar-search navbar-right">
+            <li>
+                <a class="cursor-pointer" title="Search"> <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x color-b33226"></i>
+                      <i class="fa fa-search fa-stack-1x color-white"></i>
+              </span> </a>
+            </li>
+            <li>
+                <div class="dropdown dropdown-language">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">English<span class="caret pull-right"></span> </button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                        <li></li>
+                    </ul>
+                </div>
+            </li>
+            </ul>
+    </div>
+    
+</div>
+<nav class="navbar navbar-default box-shadow-nav">
+    <div class="container pg-r-5 pg-l-5">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                <div class="navbar-brand-name"> <img src="{{ictLogoURL}}" class="img img-responsive">
+                   <!--  <div class="logotext"><span class="icttext">{{ictLogoText}} </span><span class="ictyr">{{ictYear}}</span> </div>
+                    <div class="hashtext">#ITUdata</div> -->
+                </div>
+            </a>
+        </div>
+        <div class="color-white navbar-text navbar-right">
+            <!-- <h3>{{activeTabTitle}}</h3> --></div>
+    </div>
+</nav>
+<!-- Header End -->
+<!-- Content Start -->
+<div class="container pg-r-0 pg-l-0">
+    <div class="row">
+        <div class="col-lg-12">
+            <!-- Nav tabs -->
+            <ul class="nav nav-pills" role="tablist">
+                <li role="presentation" (click)="onTabChange('Tracker by Country')"><a [routerLink]="['/tracker-by-country/regulatory-tracker' ]" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: false }">Tracker by Country</a></li>
+                <li role="presentation" (click)="onTabChange('Country Card')"><a [routerLink]="['/country-card']" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: false }">Country Card</a></li>
+                <li role="presentation" (click)="onTabChange('Tracker by Region')"><a [routerLink]="['/tracker-by-region/regulatory-tracker']" [routerLinkActiveOptions]="{ exact: false }" routerLinkActive="active">Tracker by Region</a></li>
+                <li role="presentation" (click)="onTabChange('2015 Comparison')"><a [routerLink]="['/comparison-card']" [queryParams]="{ q1: 'AFG', q2:'IND' }" routerLinkActive="active"> Comparison</a></li>
+                <li role="presentation" (click)="onTabChange('2015 Map')"><a [routerLink]="['/map']" [queryParams]="{ind: 'generation-of-regulations', year:'2015'}" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: false }">Map</a></li>
+                <li role="presentation" (click)="onTabChange('Generations of Regulation')"><a [routerLink]="['/generations-of-regulation']" routerLinkActive="active">Generations of Regulation</a></li>
+                <li role="presentation" (click)="onTabChange('About the Tracker')"><a routerLink="/about-tracker" routerLinkActive="active">About the Tracker</a></li>
+            </ul>
+        </div>
+    </div>
+    <router-outlet></router-outlet>
+</div>
+<!-- Content End -->
+<!-- footer Start -->
+<!-- footer End -->

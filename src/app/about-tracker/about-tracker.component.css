@@ -1,0 +1,36 @@
+
+/*Utility*/
+
+.margin-t-30 {
+    margin-top: 30px;
+}
+
+.margin-b-30 {
+ margin-bottom: 30px;
+}
+
+.margin-l-0 {
+ margin-left:  0pc;
+}
+.margin-r-0 {
+    margin-right: 0px
+}
+
+.padding-10 {
+    padding: 10px;
+}
+.bg-E7A2FF {
+  background-color: #E7A2FF;
+}
+
+.bt-F2F2F2 {
+    background-color: #F2F2F2;
+}
+
+.bg-b33226 {
+    background-color: #00a3e0;
+}
+
+.color-white {
+    color: white;
+}

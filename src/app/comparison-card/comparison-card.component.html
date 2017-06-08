@@ -1,0 +1,280 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-9 col-md-9 col-xs-12 col-sm-12">
+      <div class="compare-selector">
+        <h4 class="color-white font-size-18">Compare countries or regions:</h4>
+        <hr class="solidwhiteline">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <div class="dropdown dropdown-custom">
+              <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown"> {{leftSideSelectionName}}
+                        <span class="caret pull-right"></span>
+                      </button>
+
+
+              <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                <li role="presentation" [class.selected-country]="isSelected(country)" *ngFor="let country of countriesList"><a role="menuitem" tabindex="-1" (click)="onSelectLeftSelector(country)">{{country.properties.name}}</a></li>
+              </ul>
+
+            </div>
+            <!--<input #searchBox class="form-control margin-t-20"id="search-box" (keyup)="search(searchBox.value)" />-->
+            <div class="form-control input-search-wrap margin-t-20">
+              <input ng2-auto-complete [source]="autoCompleteCountriesList" [(ngModel)]="defaultvalAutoCompleteLeft" placeholder="or write country name here"
+                display-property-name="countryName" min-chars="2" (ngModelChange)="myCallbackLeftAutoComp($event)" class="input-search form-control"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <div class="dropdown dropdown-custom">
+              <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown"> {{rightSideSelectionName}}
+                        <span class="caret pull-right"></span>
+                      </button>
+
+
+              <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                <li role="presentation" [class.selected-country]="isSelected(country)" *ngFor="let country of countriesList"><a role="menuitem" tabindex="-1" (click)="onSelectRightSelector(country)">{{country.properties.name}}</a></li>
+              </ul>
+
+            </div>
+            <div class="form-control input-search-wrap margin-t-20">
+              <input ng2-auto-complete [source]="autoCompleteCountriesList" [(ngModel)]="defaultvalAutoCompleteRight" placeholder="or write country name here"
+                display-property-name="countryName" min-chars="2" (ngModelChange)="myCallbackRightAutoComp($event)" class="input-search form-control"
+              />
+            </div>
+          </div>
+        </div>
+        <hr class="solidwhiteline">
+      </div>
+
+      <!--compare card start-->
+      <div id="compare-card" class="margin-t-20 theme-sm-bg padding-15">
+        <div class="row">
+          <!--Left card-->
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 text-center theme-text-color">
+            <h2>{{ comparisonCardDisplayData[0][0][0]?.countryName }}</h2>
+            <hr class="hr-seperator-b33226">
+          </div>
+
+          <!--Right card-->
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 text-center theme-text-color">
+            <h2>{{ comparisonCardDisplayData[1][0][0]?.countryName }}</h2>
+            <hr class="hr-seperator-b33226">
+          </div>
+        </div>
+
+        <!---->
+        <h4 class="color-000000"><strong>Tracker Score 2015</strong></h4>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <h3 class="color-white margin-t-0 text-center theme-badgeb"> {{ comparisonCardDisplayData[0][0][0]?.overall | number : '1.2-2' }}</h3>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <h3 class="color-white margin-t-0 text-center theme-badgeb"> {{ comparisonCardDisplayData[1][0][0]?.overall | number : '1.2-2' }} </h3>
+          </div>
+        </div>
+
+        <!---->
+        <h4 class="color-000000"><strong>Tracker Score 2007</strong></h4>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <h3 class="theme-text-color margin-t-0 text-center theme-badge-white"> {{ comparisonCardDisplayData[0][1][0]?.overall | number : '1.2-2' }}</h3>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <h3 class="theme-text-color margin-t-0 text-center theme-badge-white"> {{ comparisonCardDisplayData[1][1][0]?.overall | number : '1.2-2' }} </h3>
+          </div>
+        </div>
+
+        <!---->
+        <h4 class="color-000000"><strong> Generation of regulation</strong></h4>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <h3 class="color-white margin-t-0 text-center theme-badgeb padding-b-5">{{ comparisonCardDisplayData[0][0][0]?.overall | generationOfRegulationFormat }}</h3>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <h3 class="color-white margin-t-0 text-center theme-badgeb padding-b-5"> {{ comparisonCardDisplayData[1][0][0]?.overall | generationOfRegulationFormat }}</h3>
+          </div>
+        </div>
+
+        <!---->
+        <h4 class="color-000000"><strong>Tracker Rank 2015</strong></h4>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <h3 class="color-white margin-t-0 text-center theme-badgel"> {{ comparisonCardDisplayData[0][0][0]?.rank }} </h3>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <h3 class="color-white margin-t-0 text-center theme-badgel"> {{ comparisonCardDisplayData[1][0][0]?.rank }} </h3>
+          </div>
+        </div>
+
+        <!---->
+        <h4 class="color-000000"><strong> Tracker Rank 2007</strong></h4>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <h3 class="theme-text-color margin-t-0 text-center theme-badge-white"> {{ comparisonCardDisplayData[0][1][0]?.rank }} </h3>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <h3 class="theme-text-color margin-t-0 text-center theme-badge-white"> {{ comparisonCardDisplayData[1][1][0]?.rank }} </h3>
+          </div>
+        </div>
+
+        <!---->
+        <hr class="hr-seperator-ffffff">
+        <!---->
+
+        <h5 class="color-000000"><strong> Cluster 1. Regulatory authority </strong></h5>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <h5 class="theme-text-color margin-t-0 text-center theme-badge-white">
+              <strong>{{ comparisonCardDisplayData[0][0][0]?.cluster1RA }}</strong></h5>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <h5 class="theme-text-color margin-t-0 text-center theme-badge-white">
+              <strong> {{ comparisonCardDisplayData[1][0][0]?.cluster1RA }} </strong></h5>
+          </div>
+        </div>
+
+        <!---->
+        <h5 class="color-000000"><strong>Cluster 2. Regulatory mandate </strong></h5>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <h5 class="theme-text-color margin-t-0 text-center theme-badge-white">
+              <strong>{{ comparisonCardDisplayData[0][0][0]?.cluster2RM }} </strong></h5>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <h5 class="theme-text-color margin-t-0 text-center theme-badge-white">
+              <strong>{{ comparisonCardDisplayData[1][0][0]?.cluster2RM }}</strong> </h5>
+          </div>
+        </div>
+
+        <!---->
+        <h5 class="color-000000"><strong>Cluster 3. Regulatory regime </strong></h5>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <h5 class="theme-text-color margin-t-0 text-center theme-badge-white">
+              <strong> {{ comparisonCardDisplayData[0][0][0]?.cluster3RR }}</strong> </h5>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <h5 class="theme-text-color margin-t-0 text-center theme-badge-white">
+              <strong>{{ comparisonCardDisplayData[1][0][0]?.cluster3RR }} </strong></h5>
+          </div>
+        </div>
+
+        <!---->
+        <h5 class="color-000000"><strong>Cluster 4. Competition framework </strong></h5>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <h5 class="theme-text-color margin-t-0 text-center theme-badge-white">
+              <strong> {{ comparisonCardDisplayData[0][0][0]?.cluster4CF }} </strong></h5>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <h5 class="theme-text-color margin-t-0 text-center theme-badge-white">
+              <strong> {{ comparisonCardDisplayData[1][0][0]?.cluster4CF }}</strong> </h5>
+          </div>
+        </div>
+      </div>
+      <!--compare card end -->
+
+      <!--Links-->
+
+      <div id="links-container" class="margin-t-20 theme-sm-bg padding-15 margin-b-30">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+            <h4>
+              <a [routerLink]="['/about-tracker']" class="color-000000">Methodology</a>
+            </h4>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 text-center">
+            <h4>
+              <a href="http://www.itu.int/en/ITU-D/Regulatory-Market/Pages/default.aspx" target="_blank" class="color-000000">ICT policy &amp; regulatory information </a>
+            </h4>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-12 col-sm-12 text-right">
+            <h4>
+              <a href="http://www.itu.int/en/ITU-D/Statistics/Pages/default.aspx" target="_blank" class="color-000000">ICT Statistics</a>
+            </h4>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12">
+      <div class="row border-b">
+        <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+          <share-buttons class="custom-buttons theme-color" [shareTitle]="shareTitle" [defaultStyle]="false" [facebook]="fbInner" [twitter]="twitterInner"
+            [linkedIn]="inInner" [reddit]="false" [stumbleUpOn]="false" [tumblr]="false" [google]="false" [pinterest]="false"></share-buttons>
+          <!--<h4 class="theme-text-color">Share:</h4>-->
+          <!--<div class="row">
+            <div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+              <a>
+                <span class="fa-stack fa-lg">
+											<i class="fa fa-circle fa-stack-2x theme-color"></i>
+											<i class="fa fa-facebook fa-stack-1x color-white"></i>
+							</span>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+              <a>
+                <span class="fa-stack fa-lg">
+											<i class="fa fa-circle fa-stack-2x theme-color"></i>
+											<i class="fa fa-twitter fa-stack-1x color-white"></i>
+							</span>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+              <a>
+                <span class="fa-stack fa-lg">
+											<i class="fa fa-circle fa-stack-2x theme-color"></i>
+											<i class="fa fa-linkedin fa-stack-1x color-white"></i>
+							</span>
+              </a>
+            </div>
+          </div>-->
+        </div>
+      </div>
+      <div class="row border-b">
+        <div class="col-lg-6 col-md-6 col-xs-4 col-sm-6">
+          <h4 class="theme-color">Print:</h4>
+          <a (click)="print()" class="cursor-pointer" title="Print Page">
+            <span class="fa-stack fa-lg">
+											<i class="fa fa-circle fa-stack-2x theme-color"></i>
+											<i class="fa fa-print fa-stack-1x color-white"></i>
+							</span>
+          </a>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-xs-6 col-sm-12">
+          <h4 class="theme-color">Save:</h4>
+          <a (click)="download()" class="cursor-pointer" title="Save">
+            <span class="fa-stack fa-lg">
+											<i class="fa fa-circle fa-stack-2x theme-color"></i>
+											<i class="fa fa-save fa-stack-1x color-white"></i>
+							</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="row" style=" padding-top: 15px;">
+        <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+          <div class="thumbnail">
+            <a href="https://www.itu.int/pub/D-PREF-BB.REG_OUT01-2017" target="_blank">
+              <img class="img img-responsive" src="./assets/images/ict-cover.jpg" />
+            </a>
+          </div>
+          <div class="caption text-center">
+            <p><strong><a href="https://www.itu.int/pub/D-PREF-BB.REG_OUT01-2017" target="_blank">New ITU report: check out now!</a></strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="row" style=" padding-top: 15px;">
+        <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+          <a href="http://newslog.itu.int/" target="_blank">
+            <img src="./assets/images/itu-newlog.png" class="img img-responsive">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
